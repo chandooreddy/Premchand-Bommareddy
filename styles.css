@@ -5,6 +5,115 @@ body, h1, h2, h3, p, ul, li {
     box-sizing: border-box;
 }
 
+header h1 {
+    color: #ffffff;      /* Same orange as About Me */
+    font-weight: 800;
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+
+.skills-list ul li {
+    background: #ffffff;
+    padding: 12px 16px;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: 600;        /* makes text bold */
+    color: #1a1a1a;          /* dark visible text */
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.skills-list ul li span,
+.skills-list ul li emoji {
+    font-size: 18px;
+}
+.skills-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+.skills-list ul li {
+    background: #f5f5f5;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.skills-list ul li:hover {
+    transform: translateY(-3px);
+}
+
+/* Work Experience Section */
+#experience {
+    max-width: 1400px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    color: #ff9800;
+    margin-bottom: 50px;
+}
+
+.experience-card {
+    background: #1f1f1f;
+    border-left: 5px solid #ff9800;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.company {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.company span {
+    font-size: 14px;
+    color: #b0b0b0;
+    font-weight: normal;
+}
+
+.duration {
+    font-size: 14px;
+    color: #ffcc80;
+    margin-bottom: 20px;
+}
+
+.role {
+    margin-bottom: 18px;
+    padding-left: 10px;
+}
+
+.role h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.time {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.location {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
 /* Applying font-family */
 body {
     font-family: 'Arial', sans-serif;
@@ -195,4 +304,5 @@ section h2 {
 .suggestion-form input[type="submit"]:hover {
     background-color: #ffa726; /* Lighter orange on hover */
 }
+
 
