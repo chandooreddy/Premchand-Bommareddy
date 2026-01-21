@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premchand B - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Premchand B</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://premchand.godaddysites.com/" target="_blank">Web info</a></li> <!-- Fixed the CV download link -->
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hireme">Hire me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#Get In Touch">Get In Touch</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p><b></strong>I am Premchand, a driven and enthusiastic professional with a Bachelor of Technology in Electronics and Communication Engineering from Bharath Institute of Higher Education and Research, Chennai. Born on November 20, 2000, I have always been passionate about harnessing the power of technology to create meaningful and impactful solutions. With 20 months of hands-on experience in Python programming, SOC monitoring, DevOps support, and a strong focus on vulnerability assessment and penetration testing (VAPT), I am well-equipped to contribute to organizational growth in the IT industry.</p>
+        <br>
+        <p></b></strong>I am eager to seek a dynamic career where I can apply my skills, contribute innovative ideas, and drive progress in a collaborative and supportive work environment. Known for my enthusiasm, punctuality, and career-minded approach, I bring exemplary communication and interpersonal skills to every role I undertake.</p>
+        <br>
+        <p></b>Full Name: Premchand Reddy Bommareddy</p>
+        <br>
+        <p>Date of Birth: 20 November 2000</p>
+        <br>
+        <p>Field of Study: B.Tech - Electronics and Communication Engineering</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <ul>
+                <li>Nmap <span class="skill-icon">🔭</span></li>
+                <li>CSS <span class="skill-icon">🎨</span></li>
+                <li>HTML <span class="skill-icon">🌐</span></li>
+                <li>VAPT <span class="skill-icon">🔍</span></li>
+                <li>Python <span class="skill-icon">🐍</span></li>
+                <li>DevOps <span class="skill-icon">🔧</span></li>
+                <li>Owasp Zap <span class="skill-icon">🛡️</span></li>
+                <li>Penetration testing <span class="skill-icon">🛡️</span></li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Add your projects here -->
+    </section>
+    
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing cricket</li>
+            <li>Watching movies</li>
+            <li>Searching passionate things on the internet</li>
+            <li>Spending time on VAPT and penetration testing tools</li>
+        </ul>
+    </section>
+    
+    <section id="Get In Touch">
+        <h2>Get In Touch</h2>
+        <div class="contact-info">
+            <p>Mobile Number: 9441220647</p>
+            <p>Email: premchandbommareddy@gmail.com</p>
+            <p>Instagram: <a href="https://www.instagram.com/call_me___chandu/" target="_blank">@call_me___chandu</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/premchand-bommareddy-37a04b224" target="_blank">Premchand Bommareddy</a></p>
+            <p>GitHub: <a href="https://github.com/call-me-chandu" target="_blank">call-me-chandu</a></p>
+        </div>
+    </section>
+
+    <section id="hireme">
+        <h2>Hire Me</h2>
+        <button id="interested-button">Interested</button>
+    </section>
+    
+    <section id="suggestions">
+        <h2>Suggestions</h2>
+        <div class="suggestion-form">
+            <h3>Have any suggestions or feedback?</h3>
+            <form id="suggestion-form">
+                <label for="suggestion">Your Suggestion:</label><br>
+                <textarea id="suggestion" name="suggestion" rows="4" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById('interested-button').addEventListener('click', function() {
+            // Function to send an email when the "Interested" button is clicked
+            window.location.href = "mailto:premchandbommareddy@gmail.com?subject=Interested in Hiring&body=Hello Premchand,%0D%0A%0D%0AI am interested in discussing potential opportunities with you.";
+        });
+    </script>
+</body>
+</html>
