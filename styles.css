@@ -6,14 +6,6 @@ body, h1, h2, h3, p, ul, li {
 }
 
 /* General form styling to match dark theme */
-form {
-    margin: 0 auto;
-    padding: 15px;
-    background-color: #1f1f1f; /* matches other sections */
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-}
-
 form label {
     display: block;
     margin-bottom: 6px;
