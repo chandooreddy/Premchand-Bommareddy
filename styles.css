@@ -52,6 +52,7 @@ form textarea {
 
 form input[type="submit"] {
     background-color: #ff9800;
+    text-align: center;
     color: #121212;
     border: none;
     padding: 12px 30px;
