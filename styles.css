@@ -53,7 +53,6 @@ header h1 {
     color: #ffffff;
 }
 
-
 .skills-list ul li {
     background: #ffffff;
     padding: 12px 16px;
@@ -346,5 +345,4 @@ section h2 {
 .suggestion-form input[type="submit"]:hover {
     background-color: #ffa726; /* Lighter orange on hover */
 }
-
 
