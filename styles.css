@@ -7,7 +7,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* General form styling to match dark theme */
 form {
-    max-width: 600px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #1f1f1f; /* matches other sections */
@@ -46,7 +46,7 @@ form textarea:focus {
 }
 
 form textarea {
-    height: 120px;
+    height: 40px;
     resize: vertical; /* allow vertical resizing */
 }
 
@@ -56,7 +56,7 @@ form input[type="submit"] {
     border: none;
     padding: 12px 30px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 600;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
