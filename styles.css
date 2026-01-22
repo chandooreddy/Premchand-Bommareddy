@@ -4,6 +4,22 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
     box-sizing: border-box;
 }
+.download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: orange;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #ffb733;
+    transform: scale(1.05);
+}
 
 header h1 {
     color: #ffffff;      /* Same orange as About Me */
