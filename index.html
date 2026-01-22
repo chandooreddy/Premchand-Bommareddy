@@ -265,18 +265,22 @@ function confirmDownload() {
 }
 </script>
 
-    
-    <section id="suggestions">
-        <h2>Suggestions</h2>
-        <div class="suggestion-form">
-            <h3>Have any suggestions or feedback?</h3>
-            <form id="suggestion-form">
-                <label for="suggestion">Your Suggestion:</label><br>
-                <textarea id="suggestion" name="suggestion" rows="4" required></textarea><br>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
+<form action="https://formspree.io/f/xgoaejar" method="POST">
+
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="suggestion">Your Suggestion:</label><br>
+    <textarea id="suggestion" name="message" rows="4" placeholder="Write your suggestion..." required></textarea><br><br>
+
+    <input type="hidden" name="_subject" value="New Portfolio Suggestion">
+
+    <button type="submit">Submit</button>
+</form>
+
     
     <script>
         document.getElementById('interested-button').addEventListener('click', function() {
