@@ -7,9 +7,9 @@ body, h1, h2, h3, p, ul, li {
 
 /* General form styling to match dark theme */
 form {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     background-color: #1f1f1f; /* matches other sections */
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
@@ -18,7 +18,7 @@ form {
 form label {
     display: block;
     margin-bottom: 6px;
-    font-weight: 600;
+    font-weight: 500;
     color: #e0e0e0;
 }
 
@@ -26,7 +26,7 @@ form input[type="text"],
 form input[type="email"],
 form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #333;
     border-radius: 8px;
@@ -46,7 +46,7 @@ form textarea:focus {
 }
 
 form textarea {
-    height: 40px;
+    height: 30px;
     resize: vertical; /* allow vertical resizing */
 }
 
@@ -58,7 +58,7 @@ form input[type="submit"] {
     padding: 12px 30px;
     cursor: pointer;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 500;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
