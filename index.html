@@ -19,6 +19,7 @@
                 <li><a href="#Get In Touch">Get In Touch</a></li>
                 <li><a href="#hireme">Hire me</a></li>
                 <li><a href="https://premchand.godaddysites.com/" target="_blank">Web info</a></li>
+                <li><a href="#" onclick="confirmDownload()">Download Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -247,10 +248,23 @@
     <section id="hireme">
         <h2>Hire Me</h2>
         <button id="interested-button">Interested</button>
-        <a href="Premchand Reddy Bommareddy Resume.html" download class="download-btn">
-    Download Resume
-</a>
     </section>
+
+    <script>
+function confirmDownload() {
+    const confirmAction = confirm("Do you want to download my resume?");
+    
+    if (confirmAction) {
+        const link = document.createElement("a");
+        link.href = "Premchand Reddy Bommareddy Resume.pdf";
+        link.download = "Premchand Reddy Bommareddy Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+}
+</script>
+
     
     <section id="suggestions">
         <h2>Suggestions</h2>
